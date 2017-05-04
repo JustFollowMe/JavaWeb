@@ -1,0 +1,752 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <title>调查问卷</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="css/index.js"></script>
+</head>
+<body>
+    <div id="bgs">
+        <div class="top">
+            <div class="top1">
+                <div class="top1_1" style=""><img src="images/logo.png" width="100%" /></div>
+                <div class="top1_2">企业问卷调查</div>
+                <div style="clear:both;"></div>
+            </div>
+            <div class="top_text">尊敬的贵宾，感谢您对此次调查的理解与支持！希望您能抽出几分钟时间，将您的真实情况和建议告诉我们。请您放心填答，我们非常重视每位贵宾的宝贵意见，同时我们将保守企业的商业秘密，期待您的参与！现在我们就马上开始吧！</div>
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+        <div class="main">
+            <!--企业名称-->
+            <div>
+                <div class="ziduan">
+                    <div>1、企业名称 <span>*</span></div>
+                </div>
+                <input type="text" class="main_input_text" />
+            </div>
+
+            <!--职务-->
+            <div>
+                <div class="ziduan">
+                    <div>2、职务 <span>*</span></div>
+                </div>
+                <div class="zhiwu">
+                    <div>
+                        <ul>
+                            <li style="margin-left:0;">
+                                <label for="zhiwu_dongshizhang">
+                                    <input type="radio" id="zhiwu_dongshizhang" name="zhiwu" />董事长
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="zhiwu_zongcai">
+                                    <input type="radio" id="zhiwu_zongcai" name="zhiwu" />总裁
+                                </label>
+                            </li>
+
+                            <li style="margin-left:0;clear:both;">
+                                <label for="zhiwu_zongjingli">
+                                    <input type="radio" id="zhiwu_zongjingli" name="zhiwu" />总经理
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="zhiwu_jingli">
+                                    <input type="radio" id="zhiwu_jingli" name="zhiwu" />总监/副总经理
+                                </label>
+                            </li>
+
+                            <li style="margin-left:0;clear:both;">
+                                <label for="zhiwu_HRD">
+                                    <input type="radio" id="zhiwu_HRD" name="zhiwu" />HRD
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="zhiwu_qita">
+                                    <input type="radio" id="zhiwu_qita" name="zhiwu" />其他
+                                </label>
+                            </li>
+
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--企业行业-->
+            <div>
+                <div class="ziduan">
+                    <div>3、企业行业 <span>*</span></div>
+                </div>
+                <div class="hangye">
+                    <div>
+                        <ul>
+                            <li style="margin-left:0;">
+                                <label for="hangye_01">
+                                    <input type="checkbox" id="hangye_01" name="hangye" />机械机电
+                                </label>
+                            </li>
+                            <li>
+                                <label for="hangye_02">
+                                    <input type="checkbox" id="hangye_02" name="hangye" />房产建设
+                                </label>
+                            </li>
+                            <li>
+                                <label for="hangye_03">
+                                    <input type="checkbox" id="hangye_03" name="hangye" />工业制造
+                                </label>
+                            </li>
+                            <li style="margin-left:0;clear:both;">
+                                <label for="hangye_04">
+                                    <input type="checkbox" id="hangye_04" name="hangye" />医药卫生
+                                </label>
+                            </li>
+                            <li>
+                                <label for="hangye_05">
+                                    <input type="checkbox" id="hangye_05" name="hangye" />轻工食品
+                                </label>
+                            </li>
+                            <li>
+                                <label for="hangye_06">
+                                    <input type="checkbox" id="hangye_06" name="hangye" />能源化工 
+                                </label>
+                            </li>
+                            <li style="margin-left:0;clear:both;">
+                                <label for="hangye_07">
+                                    <input type="checkbox" id="hangye_07" name="hangye" />物流运输
+                                </label>
+                            </li>
+                            <li>
+                                <label for="hangye_08">
+                                    <input type="checkbox" id="hangye_08" name="hangye" />综合服务
+                                </label>
+                            </li>
+                            <li>
+                                <label for="hangye_09">
+                                    <input type="checkbox" id="hangye_09" name="hangye" />金融保险
+                                </label>
+                            </li>
+                            <li style="margin-left:0;clear:both;">
+                                <label for="hangye_10">
+                                    <input type="checkbox" id="hangye_10" name="hangye" />传媒体育
+                                </label>
+                            </li>
+                            <li>
+                                <label for="hangye_11">
+                                    <input type="checkbox" id="hangye_11" name="hangye" />公共事业
+                                </label>
+                            </li>
+                            <li>
+                                <label for="hangye_12">
+                                    <input type="checkbox" id="hangye_12" name="hangye" />农林牧渔
+                                </label>
+                            </li>
+                            <li style="margin-left:0;clear:both;">
+                                <label for="hangye_13">
+                                    <input type="checkbox" id="hangye_13" name="hangye" />IT互联网
+                                </label>
+                            </li>
+                            <li>
+                                <label for="hangye_14">
+                                    <input type="checkbox" id="hangye_14" name="hangye" />其他
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--企业年销售额-->
+            <div>
+                <div class="ziduan">
+                    <div>4、企业年销售额 <span>*</span></div>
+                </div>
+                <div class="number4">
+                    <div>
+                        <ul>
+                            <li style="margin-left:0;">
+                                <label for="number4_01">
+                                    <input type="radio" id="number4_01" name="number4" />50亿元以上
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number4_02">
+                                    <input type="radio" id="number4_02" name="number4" />10亿元-50亿元
+                                </label>
+                            </li>
+                            <li style ="margin-left:0;clear:both;">
+                                <label for="number4_04">
+                                    <input type="radio" id="number4_04" name="number4" />1亿元-10亿元
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number4_05">
+                                    <input type="radio" id="number4_05" name="number4" />3千万元-1亿元
+                                </label>
+                            </li>
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number4_06">
+                                    <input type="radio" id="number4_06" name="number4" />1千万元-3千万元
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number4_07">
+                                    <input type="radio" id="number4_07" name="number4" />500万元-1千万元
+                                </label>
+                            </li>
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number4_08">
+                                    <input type="radio" id="number4_08" name="number4" />100万元-500万元
+                                </label>
+                            </li>
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number4_10">
+                                    <input type="radio" id="number4_10" name="number4" />100万元以下
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--企业人数-->
+            <div>
+                <div class="ziduan">
+                    <div>5、企业人数 <span>*</span></div>
+                </div>
+                <div class="number5">
+                    <div>
+                        <ul>
+                            <li style="margin-left:0;">
+                                <label for="number5_01">
+                                    <input type="radio" id="number5_01" name="number5" />30人以下
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number5_02">
+                                    <input type="radio" id="number5_02" name="number5" />30-100人
+                                </label>
+                            </li>
+
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number5_03">
+                                    <input type="radio" id="number5_03" name="number5" />100人-30人
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number5_04">
+                                    <input type="radio" id="number5_04" name="number5" />300人以上
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--您最主要通过什么渠道了解到最新培训资讯？-->
+            <div>
+                <div class="ziduan">
+                    <div>6、您最主要通过什么渠道了解到最新培训资讯？ <span>*</span></div>
+                </div>
+                <div class="number6">
+                    <div>
+                        <ul>
+                            <li style="margin-left:0;">
+                                <label for="number6_01">
+                                    <input type="radio" id="number6_01" name="number6" />报刊杂志
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number6_02">
+                                    <input type="radio" id="number6_02" name="number6" />网络
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number6_03">
+                                    <input type="radio" id="number6_03" name="number6" />朋友介绍
+                                </label>
+                            </li>
+
+                            <li style="margin-left:0;clear:both;width:15em;">
+                                <label for="number6_04">
+                                    <input type="radio" id="number6_04" name="number6" />其他：<input type="text" style="line-height:2em;" />
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--.您企业一年的培训费用是多少？-->
+            <div>
+                <div class="ziduan">
+                    <div>7、您企业一年的培训费用是多少？ <span>*</span></div>
+                </div>
+                <div class="number7">
+                    <div>
+                        <ul>
+                            <li style="margin-left:0;">
+                                <label for="number7_01">
+                                    <input type="radio" id="number7_01" name="number7" />5万元以下
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number7_02">
+                                    <input type="radio" id="number7_02" name="number7" />5万-20万
+                                </label>
+                            </li>
+
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number7_03">
+                                    <input type="radio" id="number7_03" name="number7" />20万-50万
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number7_04">
+                                    <input type="radio" id="number7_04" name="number7" />50万以上
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--您企业目前最需要提升哪个层级的员工?-->
+            <div>
+                <div class="ziduan">
+                    <div>8、您企业目前最需要提升哪个层级的员工？ <span>*</span></div>
+                </div>
+                <div class="number8">
+                    <div>
+                        <ul>
+                            <li style="margin-left:0;">
+                                <label for="number8_01">
+                                    <input type="checkbox" id="number8_01" name="number8" />高层
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number8_02">
+                                    <input type="checkbox" id="number8_02" name="number8" />中层
+                                </label>
+                            </li>
+
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number8_03">
+                                    <input type="checkbox" id="number8_03" name="number8" />基层
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number8_04">
+                                    <input type="checkbox" id="number8_04" name="number8" />全体员工
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--您的企业未来1年最希望获得哪些方面的培训咨询项目？-->
+            <div>
+                <div class="ziduan">
+                    <div>9、您的企业未来1年最希望获得哪些方面的培训咨询项目？ <span>*</span></div>
+                </div>
+                <div class="number9">
+                    <div>
+                        <ul>
+                            <li style="margin-left:0;">
+                                <label for="number9_01">
+                                    <input type="checkbox" id="number9_01" name="number9" />股权激励
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number9_02">
+                                    <input type="checkbox" id="number9_02" name="number9" />新三板上市
+                                </label>
+                            </li>
+
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number9_03">
+                                    <input type="checkbox" id="number9_03" name="number9" />互联网营销与商业模式创新
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number9_04">
+                                    <input type="checkbox" id="number9_04" name="number9" />有效控制成本的方法 
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number9_05">
+                                    <input type="checkbox" id="number9_05" name="number9" />关键人才管理与复制
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number9_07">
+                                    <input type="checkbox" id="number9_07" name="number9" />绩效、薪酬
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number9_06">
+                                    <input type="checkbox" id="number9_06" name="number9" />其他：<input type="text" style="line-height:2em;" />
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--您认为对举行某一期培训项目，多长时间您比较能接受？-->
+            <div>
+                <div class="ziduan">
+                    <div>10、您认为对举行某一期培训项目，多长时间您比较能接受？ <span>*</span></div>
+                </div>
+                <div class="number10">
+                    <div>
+                        <ul>
+                            <li style="margin-left:0;">
+                                <label for="number10_01">
+                                    <input type="radio" id="number10_01" name="number10" />1天
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number10_02">
+                                    <input type="radio" id="number10_02" name="number10" />2天1晚
+                                </label>
+                            </li>
+
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number10_03">
+                                    <input type="radio" id="number10_03" name="number10" />3天2晚
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number10_04">
+                                    <input type="radio" id="number10_04" name="number10" />4天3晚
+                                </label>
+                            </li>
+                            <li style="margin-left:0;clear:both;width:15em;">
+                                <label for="number10_05">
+                                    <input type="radio" id="number10_05" name="number10" />无所谓，看课程需要而定
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--您认为企业培训最有效的培训方法是什么? （多选限2项）-->
+            <div>
+                <div class="ziduan">
+                    <div>11、您认为企业培训最有效的培训方法是什么？ <span>*</span></div>
+                </div>
+                <div class="number11">
+                    <div>
+                        <ul>
+                            <li>
+                                <label for="number11_01">
+                                    <input type="checkbox" id="number11_01" name="number11" />到院校接受系统培训 
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number11_02">
+                                    <input type="checkbox" id="number11_02" name="number11" />企业间互访参观交流
+                                </label>
+                            </li>
+
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number11_03">
+                                    <input type="checkbox" id="number11_03" name="number11" />外聘讲师到公司集中讲授
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number11_04">
+                                    <input type="checkbox" id="number11_04" name="number11" />建立网络学习平台
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number11_05">
+                                    <input type="checkbox" id="number11_05" name="number11" />到培训机构接受系统外训
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number11_06">
+                                    <input type="checkbox" id="number11_06" name="number11" />光碟、视频等声像资料学习
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number11_07">
+                                    <input type="checkbox" id="number11_07" name="number11" />企业内部组织经验交流与分享讨论 
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--您企业目前面临的最大问题是什么？-->
+            <div>
+                <div class="ziduan">
+                    <div>12、您企业目前面临的最大问题是什么？ <span>*</span></div>
+                </div>
+                <div class="number12">
+                    <div>
+                        <ul>
+                            <li style="margin-left:0;">
+                                <label for="number12_01">
+                                    <input type="checkbox" id="number12_01" name="number12" />战略不清
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number12_02">
+                                    <input type="checkbox" id="number12_02" name="number12" />执行不力
+                                </label>
+                            </li>
+
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number12_03">
+                                    <input type="checkbox" id="number12_03" name="number12" />团队涣散
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number12_04">
+                                    <input type="checkbox" id="number12_04" name="number12" />绩效考核
+                                </label>
+                            </li>
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number12_05">
+                                    <input type="checkbox" id="number12_05" name="number12" />人才匮乏
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number12_06">
+                                    <input type="checkbox" id="number12_06" name="number12" />财务
+                                </label>
+                            </li>
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number12_07">
+                                    <input type="checkbox" id="number12_07" name="number12" />组织架构不合理
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number12_08">
+                                    <input type="checkbox" id="number12_08" name="number12" />生产流程不顺畅
+                                </label>
+                            </li>
+                            <li style="margin-left:0;clear:both;">
+                                <label for="number12_09">
+                                    <input type="checkbox" id="number12_09" name="number12" />企业文化不完善
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number12_10">
+                                    <input type="checkbox" id="number12_10" name="number12" />销售能力弱
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--您企业高层干部最需要哪些方面的培训? （多选限2项）-->
+            <div>
+                <div class="ziduan">
+                    <div>13、您企业高层干部最需要哪些方面的培训？ <span>*</span></div>
+                </div>
+                <div class="number13">
+                    <div>
+                        <ul>
+                            <li>
+                                <label for="number13_01">
+                                    <input type="checkbox" id="number13_01" name="number13" />《经营决策沙盘模拟》
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number13_02">
+                                    <input type="checkbox" id="number13_02" name="number13" />《资本运营之兼并收购》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number13_03">
+                                    <input type="checkbox" id="number13_03" name="number13" />《企业税务筹划与税务风险控制》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number13_04">
+                                    <input type="checkbox" id="number11_04" name="number13" />《魅力沟通与领导艺术》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number13_05">
+                                    <input type="checkbox" id="number13_05" name="number13" />《品牌营销管理》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number13_06">
+                                    <input type="checkbox" id="number13_06" name="number13" />《中小企业利润提升》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number13_07">
+                                    <input type="checkbox" id="number13_07" name="number13" />《团队建设》  
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number13_08">
+                                    <input type="checkbox" id="number13_08" name="number13" />《大客户公关、谈判》
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--您企业中层干部最需要哪些方面的培训? （多选限2项）-->
+            <div>
+                <div class="ziduan">
+                    <div>14、您企业中层干部最需要哪些方面的培训？ <span>*</span></div>
+                </div>
+                <div class="number14">
+                    <div>
+                        <ul>
+                            <li>
+                                <label for="number14_01">
+                                    <input type="checkbox" id="number14_01" name="number14" />《让管理一步到位》
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number14_02">
+                                    <input type="checkbox" id="number14_02" name="number14" />《互联网+创新与颠覆》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number14_03">
+                                    <input type="checkbox" id="number14_03" name="number14" />《目标管理与绩效考核》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number14_04">
+                                    <input type="checkbox" id="number14_04" name="number14" />《晋级卓越管理者》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number14_05">
+                                    <input type="checkbox" id="number14_05" name="number14" />《非财务经理的财务管理》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number14_06">
+                                    <input type="checkbox" id="number14_06" name="number14" />《360度沟通与影响力》
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--您企业基层员工最需要哪些方面的培训? （多选限2项）-->
+            <div>
+                <div class="ziduan">
+                    <div>15、您企业基层员工最需要哪些方面的培训？ <span>*</span></div>
+                </div>
+                <div class="number15">
+                    <div>
+                        <ul>
+                            <li>
+                                <label for="number15_01">
+                                    <input type="checkbox" id="number15_01" name="number15" />《引爆全员正能量》
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="number15_02">
+                                    <input type="checkbox" id="number15_02" name="number15" />《跨部门沟通与协作》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number15_03">
+                                    <input type="checkbox" id="number15_03" name="number15" />《为自己工作—做最好的员工》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number15_04">
+                                    <input type="checkbox" id="number15_04" name="number15" />《商务礼仪—职场魅力提升》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number15_05">
+                                    <input type="checkbox" id="number15_05" name="number15" />《责任大于能力》
+                                </label>
+                            </li>
+                            <li>
+                                <label for="number15_06">
+                                    <input type="checkbox" id="number15_06" name="number15" />《赢销特种兵训练》
+                                </label>
+                            </li>
+                        </ul>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--姓名-->
+            <div>
+                <div class="ziduan">
+                    <div>您的姓名 <span>*</span></div>
+                </div>
+                <input type="text" class="main_input_text" />
+            </div>
+
+            <!--联系-->
+            <div>
+                <div class="ziduan">
+                    <div>手机号码 <span>*</span></div>
+                </div>
+                <input type="text" class="main_input_text" />
+            </div>
+
+            <div class="subss">
+                <input type="button" value="提交" />
+            </div>
+            <div class="bottom">
+                
+            </div>
+            
+    </div>
+</body>
+</html>
